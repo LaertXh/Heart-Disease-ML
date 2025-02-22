@@ -1,7 +1,6 @@
 from imports import *
 from data_cleaning import X_train, y_train, X_test, y_test
 
-# I would do a grid search but thats not whats being asked, I'll modify parameters manually 
 rf = RandomForestClassifier(n_estimators=150, max_features= 'log2', criterion='entropy', random_state=42)
 rf.fit(X_train, y_train)
 # Calculate and display model accuracy
