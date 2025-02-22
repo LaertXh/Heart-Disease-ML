@@ -1,4 +1,5 @@
 from imports import *
+from data_cleaning import X_train, y_train, X_test, y_test
 
 model = LogisticRegression(penalty='l1', solver='liblinear', class_weight={0: 2, 1: 1}, random_state=42)
 model.fit(X_train, y_train)
