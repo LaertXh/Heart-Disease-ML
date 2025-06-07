@@ -1,16 +1,16 @@
 # Healthcare Risk Prediction- Multi-Model Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project applies multiple machine learning models to predict heart disease using the Framingham dataset. It includes structured code for data preprocessing, model training, and evaluation.
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Framingham Heart Study
 - **Features:** Various cardiovascular risk factors
 - **Target Variable:** Presence or absence of heart disease
 
-## ⚙️ Project Structure
+## Project Structure
 
 ```
 Heart-Disease-ML/
@@ -29,7 +29,7 @@ Heart-Disease-ML/
 │── README.md          # Project documentation
 ```
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 1. **Clone the repository**
 
@@ -49,7 +49,7 @@ Heart-Disease-ML/
    You can simply run the all_models file in the src folder to execute every model and their performances.
    Or you can go to each specific model file within the src/specific-models folder and run them seperately
 
-## 📈 Model Performance
+## Model Performance
 
 | Model                     | Accuracy |
 | ------------------------- | -------- |
@@ -58,14 +58,14 @@ Heart-Disease-ML/
 | Random Forest             | 85.2%    |
 | Support Vector Classifier | 83.3%    |
 
-## 📌 Conclusion
+## Conclusion
 
 The highest accuracy models were **Logistic Regression** and **Random Forest** , both achieving **85.2% accuracy** . The project demonstrates the effectiveness of various classifiers for heart disease prediction. Please note that the model results were limited by the data set given. It was meant so that default parameters would yield low initial results. This lead to me messing around with parameters to improve it, which demonstrates the power of training under the correct parameters.
 
-## 📬 Contact
+## Contact
 
 **Laert Xhumari**
 
-📧 [LaertXhumari@gmail.com](mailto:LaertXhumari@gmail.com)
+[LaertXhumari@gmail.com](mailto:LaertXhumari@gmail.com)
 
-🔗 [GitHub Profile](https://github.com/LaertXh)
+[GitHub Profile](https://github.com/LaertXh)
