@@ -1,4 +1,4 @@
-# Heart Disease Prediction - Multi-Model Analysis
+# Healthcare Risk Prediction- Multi-Model Analysis
 
 ## 📌 Project Overview
 
